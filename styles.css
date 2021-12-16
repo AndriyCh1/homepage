@@ -261,3 +261,33 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+
+.timeline__block {
+  border-bottom: 3px solid var(--border-color);
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+.timeline__items-item {
+  display: flex;  
+  justify-content: space-evenly;
+  color: var(--secondary-text-color);
+
+}
+
+.timeline__items-time {
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.timeline__items-description {
+  display: block;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
